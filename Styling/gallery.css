@@ -1,0 +1,16 @@
+/* Large Desktop - 1300px */
+@media only screen and (min-width: 81.25rem) {
+    #gallery-1152 .cs-container {
+        max-width: 80rem;
+    }
+    #gallery-1152 .cs-gallery {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    #gallery-1152 .cs-image {
+        grid-column: span 1;
+    }
+    #gallery-1152 .cs-image:nth-of-type(4),
+    #gallery-1152 .cs-image:nth-of-type(5) {
+        grid-column: span 1;
+    }
+}
