@@ -2,7 +2,7 @@
 <---     Desktop Navigation     -->
 <--- -------------------------- -*/
 /* Small Desktop - 1024px */
-@media only screen and (min-width: 64rem) {
+/* @media only screen and (min-width: 64rem) { */
     #cs-navigation {
       width: 100%;
       /* prevents padding and border from affecting height and width */
@@ -123,4 +123,4 @@
     #cs-navigation .cs-button-solid:hover:before {
       width: 100%;
     }
-}
+/* } */
