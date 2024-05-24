@@ -1,4 +1,5 @@
-// 
+// FROM THIS LINE, UNTIL THE TEMPLATE JS CODE, IS MY CODE
+
 
 // BELOW ARE THE TEMPLATE JS CODE 
 // add classes for mobile navigation toggling
@@ -34,4 +35,3 @@ for (const item of dropDowns) {
 	};
 	item.addEventListener('click', onClick);
 }
-
