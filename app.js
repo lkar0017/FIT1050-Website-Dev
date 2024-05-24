@@ -1,15 +1,3 @@
-// FROM THIS LINE, UNTIL THE TEMPLATE JS CODE, IS MY CODE
-Fancybox.bind("[data-fancybox]");
-
-$("button").click(filterItems);
-
-function filterItems(){
-    let button = this; 
-    let selector = $(button).data("filter");
-    $("#products img").not(selector).hide(500);
-    $(selector).show(500);
-}
-
 // BELOW ARE THE TEMPLATE JS CODE 
 // add classes for mobile navigation toggling
 var CSbody = document.querySelector('body');
