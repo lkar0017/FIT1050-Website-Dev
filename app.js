@@ -1,3 +1,6 @@
+// To allow Fancybox to function properly
+Fancybox.bind("[data-fancybox]");
+
 // BELOW ARE THE TEMPLATE JS CODE 
 // add classes for mobile navigation toggling
 var CSbody = document.querySelector('body');
